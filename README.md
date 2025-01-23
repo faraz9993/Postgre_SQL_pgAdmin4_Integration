@@ -90,3 +90,9 @@ Username: postgres     or     faraz
 Password: postgres@123      or      faraz@123
 SAVE
 ```
+
+### Clck on Server in left-side panel. Faraz-Server > Databases > test_database
+
+### To change the privileges of user:
+
+### Servers > Faraz-Server > Login/Group Roles > faraz (Right Click) > Properties > Privileges
