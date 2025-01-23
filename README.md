@@ -1,4 +1,4 @@
-# Postgre_SQL_pgAdmin4_Integration
+# PostgreSQL Installtion and Integration with pgAdmin4
 
 ### Commands for installing PostgreSQL 15 on Ubuntu Machine
 
@@ -20,11 +20,9 @@ sudo systemctl start postgresql
 sudo systemctl enable postgresql
 
 sudo systemctl status 'postgresql*'
-
-vim /etc/postgresql/15/main/postgresql.conf
 ```
 
-### Next step is to allow incoming traffic to the PostgreSQL anywhere from the network. For that you have to make changes in the configuration file of postgresql.
+### Next step is to allow incoming traffic to the PostgreSQL database anywhere from the network. For that you have to make changes in the configuration file of PostgreSQL.
 
 ```
 sudo vim /etc/postgresql/15/main/postgresql.conf
@@ -36,7 +34,7 @@ sudo vim /etc/postgresql/15/main/postgresql.conf
 Connection Settings -
 listen_addresses = '*'          # what IP address(es) to listen on;
 ```
-### Now, let us login into PostgreSQL, create an admin password, a user, that user's username and password, a datbase and grant its privileges to the newly created user.
+### Now, let us login into PostgreSQL DATABASE, create a password for admin, create a user, assign that user a username and password, create a datbase and grant its privileges to that newly created user.
 
 ```
 sudo -i -u postgres
@@ -45,6 +43,9 @@ psql
 ### Accessing a Postgres Prompt Without Switching Accounts:
 ```
 sudo -u postgres psql
+```
+### Commands to run in the database:
+```
 
 ALTER USER postgres WITH PASSWORD 'postgres@123';
 
@@ -76,12 +77,12 @@ sudo apt-get install pgadmin4-desktop
 sudo apt-get install pgadmin4-web 
 ```
 
-### These step will download pgAdmin4 tool in your machine. Now, open the tool. On the main page click on Add New Server
-## General
+### These steps will download pgAdmin4 tool in your machine. Now, open the tool. On the main page click on Add New Server
+#### General
 ```
 Name: Faraz-Server
 ```
-## Connection:
+#### Connection:
 ```
 Hostname: localhost
 Port: 5432
@@ -91,8 +92,10 @@ Password: postgres@123      or      faraz@123
 SAVE
 ```
 
-### Clck on Server in left-side panel. Faraz-Server > Databases > test_database
+### Now, you will be able to see all the databases in pgAdmin4 
 
-### To change the privileges of user:
+### For that, click on Server in left-side panel. Faraz-Server > Databases > test_database
+
+### Now, to change the privileges of user:
 
 ### Servers > Faraz-Server > Login/Group Roles > faraz (Right Click) > Properties > Privileges
