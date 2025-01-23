@@ -98,7 +98,7 @@ SAVE
 
 ### Servers > Faraz-Server > Login/Group Roles > faraz (Right Click) > Properties > Privileges
 
-### To access the pgAdmin4 tool on the broswer, go to pgAdmin4tool > File > View Logs > Scroll down.
+### To access the pgAdmin4 tool on the broswer, go to pgAdmin4 tool > File > View Logs > Scroll down.
 
 ### You will see Application Server URL: http://127.0.0.1:43317/?key=xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
 
