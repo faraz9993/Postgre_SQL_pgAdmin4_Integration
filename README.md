@@ -106,7 +106,7 @@ Servers > Faraz-Server > Login/Group Roles > faraz (Right Click) > Properties > 
 ```
 Application Server URL: http://127.0.0.1:43317/?key=xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
 ```
-### Open this URL in the browser, it will ask for the passord of the user. Enetr the password.
+### Open this URL in the browser, it will ask for the password of the user. Enetr the password.
 
 ### Reference links:
 ```
