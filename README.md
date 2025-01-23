@@ -77,12 +77,12 @@ sudo apt-get install pgadmin4-desktop
 sudo apt-get install pgadmin4-web 
 ```
 
-### These steps will download pgAdmin4 tool in your machine. Now, open the tool and on the main page click on Add New Server
-#### General
+### These steps will download pgAdmin4 tool in your machine. Now, open the tool and on the main page click on Add New Server.
+#### Go to "General" section:
 ```
 Name: Faraz-Server
 ```
-#### Connection:
+#### Go to "Connection" section:
 ```
 Hostname: localhost
 Port: 5432
