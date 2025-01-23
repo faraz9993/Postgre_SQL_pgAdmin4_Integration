@@ -107,3 +107,10 @@ Servers > Faraz-Server > Login/Group Roles > faraz (Right Click) > Properties > 
 Application Server URL: http://127.0.0.1:43317/?key=xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx
 ```
 ### Open this URL in the browser, it will ask for the passord of the user. Enetr the password.
+
+### Reference links:
+```
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04
+
+https://phoenixnap.com/kb/how-to-connect-postgresql-database-command-line
+```
