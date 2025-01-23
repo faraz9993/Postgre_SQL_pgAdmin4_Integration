@@ -23,3 +23,28 @@ sudo systemctl status 'postgresql*'
 
 vim /etc/postgresql/15/main/postgresql.conf
 ```
+
+### Next step is to allow incoming traffic to the popstgresql anywhere from the network. For that you have to make changes in the configuration file of postgresql.
+
+```
+sudo vim /etc/postgresql/15/main/postgresql.conf
+```
+
+### Make below changes:
+
+# - Connection Settings -
+```
+listen_addresses = '*'          # what IP address(es) to listen on;
+```
+### Now, let us login into PostgreSQL, create an admin password, a user, that user's username and password, a datbase and grant its privileges to the newly created user.
+
+```
+sudo -i -u postgres
+psql
+```
+### Accessing a Postgres Prompt Without Switching Accounts:
+```
+sudo -u postgres psql
+```
+
+
