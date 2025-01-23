@@ -100,7 +100,7 @@ Faraz-Server > Databases > test_database
 ```
 Servers > Faraz-Server > Login/Group Roles > faraz (Right Click) > Properties > Privileges
 ```
-### To access the pgAdmin4 tool on the broswer, go to pgAdmin4 tool > File > View Logs > scroll down in the logs page.
+### To access the pgAdmin4 tool on the browser, go to pgAdmin4 tool > File > View Logs > scroll down in the logs page.
 
 ### You will see 
 ```
