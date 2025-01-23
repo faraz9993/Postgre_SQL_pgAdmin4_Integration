@@ -77,7 +77,7 @@ sudo apt-get install pgadmin4-desktop
 sudo apt-get install pgadmin4-web 
 ```
 
-### These steps will download pgAdmin4 tool in your machine. Now, open the tool. On the main page click on Add New Server
+### These steps will download pgAdmin4 tool in your machine. Now, open the tool and on the main page click on Add New Server
 #### General
 ```
 Name: Faraz-Server
